@@ -1,0 +1,67 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* navigation */
+header > nav {
+    float: right;
+    justify-content: space-between;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+body {
+    width: 650px;
+    margin: 24px auto;
+    background-image: url(assets/white-waves.webp);
+
+}
+
+
+
+
+img {
+    float: left;
+
+}
+
+article > p, img, h2{
+    margin: 10px 10px;
+}
+
+article {
+    float: left;
+    max-width: 450px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+aside {
+    background-color: white;
+    margin: 30px auto;
+    float: right; 
+}
+
+aside > nav {
+    display: block;
+    align-items: center;
+}
+
+main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+}
